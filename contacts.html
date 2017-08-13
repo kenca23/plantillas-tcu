@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<html lang="en">
+
+<head>
+  	<meta charset="utf-8">
+    <title>LEARN - Courses, Education site template</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+    
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/superfish.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="fontello/css/fontello.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+      <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+
+  </head>
+  <body>
+    
+
+	<nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="mobnav-btn"></div>
+                    <ul class="sf-menu">
+                        <li class="normal_drop_down">
+                            <a href="#">User's name</a>
+                            <div class="mobnav-subarrow"></div>
+                            <ul>
+                                <li><a href="profileTCU.html">My Account</a></li>
+                                <li><a href="loginTCU.html">Logout</a></li>
+                            </ul>
+                        </li>
+                        <li class="normal_drop_down">
+                            <a href="#">Units</a>
+                            <div class="mobnav-subarrow"></div>
+                            <ul>
+                                <li><a href="#">Seventh Grade</a>
+                                    <ul>
+                                        <li><a href="course_details_4.html">Unit 1: Here I am!</a></li>
+                                        <li><a href="course_details_4.html">Unit 2: Enjoying life</a></li>
+                                        <li><a href="course_details_4.html">Unit 3: Getting back to nature</a></li>
+                                        <li><a href="course_details_4.html">Unit 4: Checking things off a shopping list</a></li>
+                                        <li><a href="course_details_4.html">Unit 5: Let’s celebrate Costa Rican culture</a></li>
+                                        <li><a href="course_timeline.html"> Unit 6: Getting from here to there</a></li>
+                                    </ul> 
+                                </li>    
+                                <li><a href="index_2.html">Eigth Grade</a></li>
+                                <li><a href="index_2.html">Ninth Grade</a></li>                
+                            </ul>
+                        </li>
+
+                        <li class="normal_drop_down">
+                            <a href="myProgressTCU.html">My progress</a>
+                            <div class="mobnav-subarrow"></div>
+                        </li> 
+                    </ul>
+                </div>
+            </div><!-- End row -->
+        </div><!-- End container -->
+    </nav> 
+
+  <section id="map"></section><!-- end map-->
+  <section id="directions">
+  	<div class="container">
+    	<div class="row">
+        <div class="col-md-8 col-md-offset-2">
+       <form action="http://maps.google.com/maps" method="get" target="_blank">
+				<div class="input-group">
+					<input type="text" name="saddr" placeholder="Enter your starting point" class="form-control style-2" />
+					<input type="hidden" name="daddr" value="Universidad de Costa Rica"/><!-- Write here your end point -->
+					<span class="input-group-btn">
+					<button class="btn" type="submit" value="Get directions" style="margin-left:0;">GET DIRECTIONS</button>
+					</span>
+				</div><!-- /input-group -->
+			</form>
+          </div>
+        </div>
+    </div>
+  </section>
+  
+<section id="main_content" >
+<div class="container">
+<div class="row">
+	<div class="col-md-4">
+		<h3>Address</h3>
+		<ul id="contact-info">
+			<li><i class="icon-home"></i> Ciudad Universitaria Rodrigo Facio, 11501 San Pedro De Montes De Oca, San Jose, Costa Rica</li>
+			<li><i class="icon-phone"></i> + 506 2511 4502</li>
+			<li><i class=" icon-email"></i> <a href="mailto:tcu658ucr@gmail.com">tcu658ucr@gmail.com</a></li>
+		</ul>
+		<hr>
+		<h3>Follow us</h3>
+		<p>
+			TCU 658 - Universidad de Costa Rica
+		</p>
+		<ul id="follow_us_contacts">
+			<li><a href="https://www.facebook.com/TCU-658-UCR-1466533586980316/"><i class="icon-facebook"></i>Facebook</a></li>
+		</ul>
+        
+	</div>
+	<div class="col-md-8">
+		<div class=" box_style_2">
+			<span class="tape"></span>
+			<div class="row">
+				<div class="col-md-12">
+					<h3>General Enquire</h3>
+				</div>
+			</div>
+			<div id="message-contact"></div>
+			<form method="post" action="assets/contact.php" id="contactform">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="form-group">
+							<input type="text" class="form-control style_2" id="name_contact" name="name_contact" placeholder="Enter Name">
+                            <span class="input-icon"><i class="icon-user"></i></span>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="form-group">
+							<input type="text" class="form-control style_2" id="lastname_contact" name="lastname_contact" placeholder="Enter Last Name">
+                            <span class="input-icon"><i class="icon-user"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="form-group">
+							<input type="email" id="email_contact" name="email_contact" class="form-control style_2" placeholder="Enter Email">
+                            <span class="input-icon"><i class="icon-email"></i></span>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="form-group">
+							<input type="text" id="phone_contact" name="phone_contact" class="form-control style_2" placeholder="Enter Phone number">
+                            <span class="input-icon"><i class="icon-phone"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<textarea rows="5" id="message_contact" name="message_contact" class="form-control" placeholder="Write your message" style="height:200px;"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<input type="text" id="verify_contact" class=" form-control" placeholder="Are you human? 3 + 1 =">
+						<input type="submit" value="Submit" class=" button_medium" id="submit-contact"/>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h3>TCU 658</br>Universidad de Costa Rica</h3>
+			</div>
+		</div>
+	</div>
+	
+	<hr>
+	
+	<div class="container" id="nav-footer">
+		<div class="row text-left">
+			<div class="col-md-4 col-sm-4">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="courses_grid.html">Courses</a></li>
+					<li><a href="contacts.html">Contact Us</a></li>
+				</ul>
+			</div><!-- End col-md-4 -->
+			<div class="col-md-4 col-sm-4">
+				<h4>About Us</h4>
+				<ul>
+					<li><a href="about_us.html">About Us</a></li>
+					<li><a href="register.html">Register</a></li>
+				</ul>
+			</div><!-- End col-md-4 -->
+			<div class="col-md-4 col-sm-4">
+				<ul id="follow_us">
+					<li><a href="https://www.facebook.com/TCU-658-UCR-1466533586980316/"><i class="icon-facebook"></i></a></li>
+				</ul>
+				<ul>
+					<li><strong class="phone">+506 2511 4502</strong></li>
+					<li>Questions? <a href="mailito:tcu658ucr@gmail.com">tcu658ucr@gmail.com</a></li>
+				</ul>
+			</div><!-- End col-md-4 -->
+		</div><!-- End row -->
+	</div>
+	<div id="copy_right">Created by <a href="https://www.linkedin.com/in/kenneth-calvo-694412123/">Kenneth Calvo</a> and <a href="">Silvia Brenes</a>.</div>
+</footer>
+
+<div id="toTop">Back to top</div>
+
+<!-- JQUERY -->
+<script src="js/jquery-2.2.4.min.js"></script>
+
+<!-- OTHER JS --> 
+<script src="js/superfish.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="assets/validate.js"></script>
+<script src="js/jquery.placeholder.js"></script>
+<script src="js/functions.js"></script>
+
+<!-- GOOGLE MAP -->
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="js/mapmarker.jquery.js"></script>
+<script type="text/javascript" src="js/mapmarker_func.jquery.js"></script>
+
+<script src="js/classie.js"></script>
+<script src="js/uisearch.js"></script>
+<script>new UISearch( document.getElementById( 'sb-search' ) );</script>
+
+  </body>
+</html>
